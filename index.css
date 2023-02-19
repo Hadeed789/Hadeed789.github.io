@@ -1,0 +1,93 @@
+html, body, #container
+{
+   width: 100%;
+   height: 100%;
+}
+body:before
+{
+   content: "";
+   position: fixed;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+   background-image: radial-gradient(circle at 25% 25%, #800000 0%, #000000 100%);
+}
+body
+{
+   background-color: #000000;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#PageHeader1
+{
+   background-clip: padding-box;
+   background-image: linear-gradient(135deg, #800000 0%, #000000 100%);
+   border: 5px solid #FFFFFF;
+   border-radius: 20px;
+   box-sizing: border-box;
+}
+#Picture1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#TextArt1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2
+{
+   color: #FFFFFF;
+   font-family: Tahoma;
+   font-weight: 400;
+   font-size: 75px;
+   line-height: 90px;
+}
+#wb_Text2 p, #wb_Text2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#PageFooter1
+{
+   background-image: linear-gradient(to top, #4F4F4F 0%, #800000 100%);
+   border-radius: 0px;
+   box-sizing: border-box;
+}
